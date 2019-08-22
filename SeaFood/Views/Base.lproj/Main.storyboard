@@ -50,6 +50,11 @@
                         <viewLayoutGuide key="safeArea" id="ffg-In-JX2"/>
                     </view>
                     <navigationItem key="navigationItem" id="8PM-RA-4Qs">
+                        <barButtonItem key="leftBarButtonItem" title="Photos" id="LQG-KK-hyo">
+                            <connections>
+                                <action selector="photoButtonTapped:" destination="BYZ-38-t0r" id="xET-Tb-nNm"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="TNQ-0q-Bae">
                             <connections>
                                 <action selector="cameraTapped:" destination="BYZ-38-t0r" id="ohS-Kr-RRF"/>
